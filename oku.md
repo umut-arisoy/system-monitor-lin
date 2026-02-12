@@ -10,6 +10,11 @@ chmod +x system_monitor.py
 
 python3 system_monitor.py
 
+
+# Kurulum scriptini çalıştır
+chmod +x install.sh
+./install.sh
+
 # Veritabanını görüntüle
 sqlite3 system_monitor.db "SELECT * FROM performance_log LIMIT 10;"
 
